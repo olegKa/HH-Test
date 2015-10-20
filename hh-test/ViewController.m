@@ -38,6 +38,7 @@ NSString *const cellIdentifier = @"cellVacancy";
     _paginator = [HHPaginator sharedPaginator];
     _paginator.delegate = self;
 
+    // запрос первой страницы
     [_paginator nextPage];
     
 }
@@ -97,17 +98,10 @@ NSString *const cellIdentifier = @"cellVacancy";
 }
 
 - (void)configureCell:(HHVacancyTableViewCell *)cell forIndexPath:(NSIndexPath *)indexPath {
-//    [_paginator requestVacancyAtIndex:indexPath.row withCompletion:^(HHVacancy *vacancy) {
-//        if (vacancy) {
-//            cell.textLabel.text = vacancy.name;
-//            cell.detailTextLabel.text = vacancy.employer.name;
-//        }
-//    }];
+
     HHVacancy *vacancy = (HHVacancy *)[_paginator objectAtIndex:indexPath.row];
     if (vacancy) {
         cell.vacancy = vacancy;
-//        cell.textLabel.text = [NSString stringWithFormat:@"%@:%@", vacancy.id, vacancy.name];
-//        cell.detailTextLabel.text = vacancy.employer.name;
     }
     
 }

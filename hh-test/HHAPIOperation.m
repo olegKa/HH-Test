@@ -18,6 +18,13 @@
     return self;
 }
 
+/**
+ *  Выполняет GET запрос на сервер с параметрами parameters
+ *
+ *  @param parameters параметры запроса http://api.hh.ru/?<page=>&<perPage=>
+ *  @param success    блок при успехе
+ *  @param failure    блок при неудаче
+ */
 - (void)executeWithParameters:(NSDictionary *)parameters success:(void (^) (NSDictionary *data))success failure:(void (^)(NSError *error))failure {
     HHAPIClient *apiClient = [HHAPIClient sharedClient];
     
