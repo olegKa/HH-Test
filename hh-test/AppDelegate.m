@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "AFNetworkActivityIndicatorManager.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,17 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
+    
+//    CGRect rect = [[UIScreen mainScreen] bounds];
+//    _window = [[UIWindow alloc] initWithFrame:rect];
+//    
+//    ViewController *vc = [[ViewController alloc] initWithStyle:UITableViewStylePlain];
+//    
+//    _window.rootViewController = vc;
+//    [_window makeKeyAndVisible];
+    
     return YES;
 }
 

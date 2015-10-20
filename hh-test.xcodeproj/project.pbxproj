@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17CE3CE17E6D3CB8CCB35CB4 /* libPods-hh-testTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F53B99228C9663A4B8ED0515 /* libPods-hh-testTests.a */; };
 		4F11258F1BD5302D009461FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F11258E1BD5302D009461FF /* main.m */; };
 		4F1125921BD5302D009461FF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125911BD5302D009461FF /* AppDelegate.m */; };
 		4F1125951BD5302D009461FF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125941BD5302D009461FF /* ViewController.m */; };
@@ -14,6 +15,17 @@
 		4F11259A1BD5302D009461FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1125991BD5302D009461FF /* Assets.xcassets */; };
 		4F11259D1BD5302D009461FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F11259B1BD5302D009461FF /* LaunchScreen.storyboard */; };
 		4F1125A81BD5302D009461FF /* hh_testTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125A71BD5302D009461FF /* hh_testTests.m */; };
+		4F1125B81BD5316F009461FF /* HHAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125B71BD5316F009461FF /* HHAPIClient.m */; settings = {ASSET_TAGS = (); }; };
+		4F1125BB1BD5320F009461FF /* HHAPIAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125BA1BD5320F009461FF /* HHAPIAction.m */; settings = {ASSET_TAGS = (); }; };
+		4F1125BE1BD53236009461FF /* HHAPIOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125BD1BD53236009461FF /* HHAPIOperation.m */; settings = {ASSET_TAGS = (); }; };
+		4F1125C11BD53518009461FF /* HHBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125C01BD53518009461FF /* HHBaseObject.m */; settings = {ASSET_TAGS = (); }; };
+		4F1125C41BD53537009461FF /* HHVacancy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125C31BD53537009461FF /* HHVacancy.m */; settings = {ASSET_TAGS = (); }; };
+		4F1125C71BD53B92009461FF /* HHEmployer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125C61BD53B92009461FF /* HHEmployer.m */; settings = {ASSET_TAGS = (); }; };
+		4F1125CA1BD53BE1009461FF /* HHSalary.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125C91BD53BE1009461FF /* HHSalary.m */; settings = {ASSET_TAGS = (); }; };
+		4F1125CD1BD54018009461FF /* HHPaginator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125CC1BD54018009461FF /* HHPaginator.m */; settings = {ASSET_TAGS = (); }; };
+		4F1125D01BD544A9009461FF /* HHAPIVacancies.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125CF1BD544A9009461FF /* HHAPIVacancies.m */; settings = {ASSET_TAGS = (); }; };
+		4F1125D41BD60C88009461FF /* HHVacancyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F1125D31BD60C88009461FF /* HHVacancyTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		BC8F7878B42F2563D5B70941 /* libPods-hh-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 64C7A7290FB2BA05B33851B7 /* libPods-hh-test.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +52,33 @@
 		4F1125A31BD5302D009461FF /* hh-testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hh-testTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1125A71BD5302D009461FF /* hh_testTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hh_testTests.m; sourceTree = "<group>"; };
 		4F1125A91BD5302D009461FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1125B61BD5316F009461FF /* HHAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAPIClient.h; sourceTree = "<group>"; };
+		4F1125B71BD5316F009461FF /* HHAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAPIClient.m; sourceTree = "<group>"; };
+		4F1125B91BD5320F009461FF /* HHAPIAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAPIAction.h; sourceTree = "<group>"; };
+		4F1125BA1BD5320F009461FF /* HHAPIAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAPIAction.m; sourceTree = "<group>"; };
+		4F1125BC1BD53236009461FF /* HHAPIOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAPIOperation.h; sourceTree = "<group>"; };
+		4F1125BD1BD53236009461FF /* HHAPIOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAPIOperation.m; sourceTree = "<group>"; };
+		4F1125BF1BD53518009461FF /* HHBaseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHBaseObject.h; sourceTree = "<group>"; };
+		4F1125C01BD53518009461FF /* HHBaseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHBaseObject.m; sourceTree = "<group>"; };
+		4F1125C21BD53537009461FF /* HHVacancy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHVacancy.h; sourceTree = "<group>"; };
+		4F1125C31BD53537009461FF /* HHVacancy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHVacancy.m; sourceTree = "<group>"; };
+		4F1125C51BD53B92009461FF /* HHEmployer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHEmployer.h; sourceTree = "<group>"; };
+		4F1125C61BD53B92009461FF /* HHEmployer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHEmployer.m; sourceTree = "<group>"; };
+		4F1125C81BD53BE1009461FF /* HHSalary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHSalary.h; sourceTree = "<group>"; };
+		4F1125C91BD53BE1009461FF /* HHSalary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHSalary.m; sourceTree = "<group>"; };
+		4F1125CB1BD54018009461FF /* HHPaginator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHPaginator.h; sourceTree = "<group>"; };
+		4F1125CC1BD54018009461FF /* HHPaginator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHPaginator.m; sourceTree = "<group>"; };
+		4F1125CE1BD544A9009461FF /* HHAPIVacancies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHAPIVacancies.h; sourceTree = "<group>"; };
+		4F1125CF1BD544A9009461FF /* HHAPIVacancies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHAPIVacancies.m; sourceTree = "<group>"; };
+		4F1125D11BD56733009461FF /* hh-test.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hh-test.pch"; sourceTree = "<group>"; };
+		4F1125D21BD60C88009461FF /* HHVacancyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HHVacancyTableViewCell.h; sourceTree = "<group>"; };
+		4F1125D31BD60C88009461FF /* HHVacancyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HHVacancyTableViewCell.m; sourceTree = "<group>"; };
+		5768C4A503A1653E4B213FB7 /* Pods-hh-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hh-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hh-test/Pods-hh-test.debug.xcconfig"; sourceTree = "<group>"; };
+		6146E1B01271489738744CB2 /* Pods-hh-testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hh-testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hh-testTests/Pods-hh-testTests.release.xcconfig"; sourceTree = "<group>"; };
+		628C61C11A2A80DF674C6F54 /* Pods-hh-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hh-test.release.xcconfig"; path = "Pods/Target Support Files/Pods-hh-test/Pods-hh-test.release.xcconfig"; sourceTree = "<group>"; };
+		64C7A7290FB2BA05B33851B7 /* libPods-hh-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hh-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB89F0893A172CBB7FB1F22 /* Pods-hh-testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hh-testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hh-testTests/Pods-hh-testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F53B99228C9663A4B8ED0515 /* libPods-hh-testTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hh-testTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC8F7878B42F2563D5B70941 /* libPods-hh-test.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,18 +94,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17CE3CE17E6D3CB8CCB35CB4 /* libPods-hh-testTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14225A8B8B01D016BB1BEDC6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5768C4A503A1653E4B213FB7 /* Pods-hh-test.debug.xcconfig */,
+				628C61C11A2A80DF674C6F54 /* Pods-hh-test.release.xcconfig */,
+				7AB89F0893A172CBB7FB1F22 /* Pods-hh-testTests.debug.xcconfig */,
+				6146E1B01271489738744CB2 /* Pods-hh-testTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4F1125811BD5302D009461FF = {
 			isa = PBXGroup;
 			children = (
 				4F11258C1BD5302D009461FF /* hh-test */,
 				4F1125A61BD5302D009461FF /* hh-testTests */,
 				4F11258B1BD5302D009461FF /* Products */,
+				14225A8B8B01D016BB1BEDC6 /* Pods */,
+				E5BC9822615C544124A74DA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,14 +135,15 @@
 		4F11258C1BD5302D009461FF /* hh-test */ = {
 			isa = PBXGroup;
 			children = (
-				4F1125901BD5302D009461FF /* AppDelegate.h */,
-				4F1125911BD5302D009461FF /* AppDelegate.m */,
-				4F1125931BD5302D009461FF /* ViewController.h */,
-				4F1125941BD5302D009461FF /* ViewController.m */,
+				4F1125B51BD53055009461FF /* Application */,
+				4F1125B41BD53046009461FF /* View Controllers */,
+				4F1125B31BD5303F009461FF /* API */,
+				4F1125B21BD53035009461FF /* Model */,
 				4F1125961BD5302D009461FF /* Main.storyboard */,
 				4F1125991BD5302D009461FF /* Assets.xcassets */,
 				4F11259B1BD5302D009461FF /* LaunchScreen.storyboard */,
 				4F11259E1BD5302D009461FF /* Info.plist */,
+				4F1125D11BD56733009461FF /* hh-test.pch */,
 				4F11258D1BD5302D009461FF /* Supporting Files */,
 			);
 			path = "hh-test";
@@ -111,6 +166,67 @@
 			path = "hh-testTests";
 			sourceTree = "<group>";
 		};
+		4F1125B21BD53035009461FF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F1125BF1BD53518009461FF /* HHBaseObject.h */,
+				4F1125C01BD53518009461FF /* HHBaseObject.m */,
+				4F1125C21BD53537009461FF /* HHVacancy.h */,
+				4F1125C31BD53537009461FF /* HHVacancy.m */,
+				4F1125C51BD53B92009461FF /* HHEmployer.h */,
+				4F1125C61BD53B92009461FF /* HHEmployer.m */,
+				4F1125C81BD53BE1009461FF /* HHSalary.h */,
+				4F1125C91BD53BE1009461FF /* HHSalary.m */,
+				4F1125CB1BD54018009461FF /* HHPaginator.h */,
+				4F1125CC1BD54018009461FF /* HHPaginator.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		4F1125B31BD5303F009461FF /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4F1125B61BD5316F009461FF /* HHAPIClient.h */,
+				4F1125B71BD5316F009461FF /* HHAPIClient.m */,
+				4F1125B91BD5320F009461FF /* HHAPIAction.h */,
+				4F1125BA1BD5320F009461FF /* HHAPIAction.m */,
+				4F1125BC1BD53236009461FF /* HHAPIOperation.h */,
+				4F1125BD1BD53236009461FF /* HHAPIOperation.m */,
+				4F1125CE1BD544A9009461FF /* HHAPIVacancies.h */,
+				4F1125CF1BD544A9009461FF /* HHAPIVacancies.m */,
+			);
+			name = API;
+			sourceTree = "<group>";
+		};
+		4F1125B41BD53046009461FF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4F1125931BD5302D009461FF /* ViewController.h */,
+				4F1125941BD5302D009461FF /* ViewController.m */,
+				4F1125D21BD60C88009461FF /* HHVacancyTableViewCell.h */,
+				4F1125D31BD60C88009461FF /* HHVacancyTableViewCell.m */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4F1125B51BD53055009461FF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				4F1125901BD5302D009461FF /* AppDelegate.h */,
+				4F1125911BD5302D009461FF /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		E5BC9822615C544124A74DA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64C7A7290FB2BA05B33851B7 /* libPods-hh-test.a */,
+				F53B99228C9663A4B8ED0515 /* libPods-hh-testTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +234,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F1125AC1BD5302D009461FF /* Build configuration list for PBXNativeTarget "hh-test" */;
 			buildPhases = (
+				1937C28EE08B56A60FB051D2 /* Check Pods Manifest.lock */,
 				4F1125861BD5302D009461FF /* Sources */,
 				4F1125871BD5302D009461FF /* Frameworks */,
 				4F1125881BD5302D009461FF /* Resources */,
+				A491E87DD485B6A8B7C6D380 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F1125AF1BD5302D009461FF /* Build configuration list for PBXNativeTarget "hh-testTests" */;
 			buildPhases = (
+				30B2DB08B1B3DAA32ACAD2E1 /* Check Pods Manifest.lock */,
 				4F11259F1BD5302D009461FF /* Sources */,
 				4F1125A01BD5302D009461FF /* Frameworks */,
 				4F1125A11BD5302D009461FF /* Resources */,
+				77B223E06A17BAC092FBC716 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -206,14 +326,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1937C28EE08B56A60FB051D2 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30B2DB08B1B3DAA32ACAD2E1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		77B223E06A17BAC092FBC716 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hh-testTests/Pods-hh-testTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A491E87DD485B6A8B7C6D380 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hh-test/Pods-hh-test-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4F1125861BD5302D009461FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F1125BE1BD53236009461FF /* HHAPIOperation.m in Sources */,
+				4F1125D41BD60C88009461FF /* HHVacancyTableViewCell.m in Sources */,
+				4F1125CA1BD53BE1009461FF /* HHSalary.m in Sources */,
 				4F1125951BD5302D009461FF /* ViewController.m in Sources */,
+				4F1125B81BD5316F009461FF /* HHAPIClient.m in Sources */,
+				4F1125C41BD53537009461FF /* HHVacancy.m in Sources */,
 				4F1125921BD5302D009461FF /* AppDelegate.m in Sources */,
+				4F1125C71BD53B92009461FF /* HHEmployer.m in Sources */,
+				4F1125C11BD53518009461FF /* HHBaseObject.m in Sources */,
+				4F1125BB1BD5320F009461FF /* HHAPIAction.m in Sources */,
 				4F11258F1BD5302D009461FF /* main.m in Sources */,
+				4F1125D01BD544A9009461FF /* HHAPIVacancies.m in Sources */,
+				4F1125CD1BD54018009461FF /* HHPaginator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,8 +530,11 @@
 		};
 		4F1125AD1BD5302D009461FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5768C4A503A1653E4B213FB7 /* Pods-hh-test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hh-test/hh-test.pch";
 				INFOPLIST_FILE = "hh-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.hh-test";
@@ -348,8 +544,11 @@
 		};
 		4F1125AE1BD5302D009461FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 628C61C11A2A80DF674C6F54 /* Pods-hh-test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hh-test/hh-test.pch";
 				INFOPLIST_FILE = "hh-test/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.hh-test";
@@ -359,6 +558,7 @@
 		};
 		4F1125B01BD5302D009461FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AB89F0893A172CBB7FB1F22 /* Pods-hh-testTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "hh-testTests/Info.plist";
@@ -371,6 +571,7 @@
 		};
 		4F1125B11BD5302D009461FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6146E1B01271489738744CB2 /* Pods-hh-testTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = "hh-testTests/Info.plist";
@@ -400,6 +601,7 @@
 				4F1125AE1BD5302D009461FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4F1125AF1BD5302D009461FF /* Build configuration list for PBXNativeTarget "hh-testTests" */ = {
 			isa = XCConfigurationList;
@@ -408,6 +610,7 @@
 				4F1125B11BD5302D009461FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,15 @@
+//
+//  hh-text.pch
+//  hh-test
+//
+//  Created by OLEG KALININ on 19.10.15.
+//  Copyright © 2015 OLEG KALININ. All rights reserved.
+//
+
+#ifndef hh_text_pch
+#define hh_text_pch
+
+#define isNull(obj) ([obj isKindOfClass:[NSNull class]])? nil:obj
+
+
+#endif /* hh_text_pch */
