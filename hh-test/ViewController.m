@@ -65,7 +65,7 @@ NSString *const cellIdentifier = @"cellVacancy";
 - (void)paginatorDidChangeContent:(HHPaginator *)paginator {
     [self.tableView endUpdates];
     if (visibleIndexPath) {
-        [self.tableView scrollToRowAtIndexPath:visibleIndexPath atScrollPosition:UITableViewScrollPositionBottom animated:YES];
+        [self.tableView scrollToRowAtIndexPath:visibleIndexPath atScrollPosition:UITableViewScrollPositionBottom animated:NO];
         visibleIndexPath = nil;
     }
 }
