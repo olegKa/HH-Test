@@ -8,7 +8,13 @@
 
 #import "AppDelegate.h"
 #import "AFNetworkActivityIndicatorManager.h"
-#import "ViewController.h"
+#import "HHNoXibViewController.h"
+
+/**
+ *
+ *  Определяет вариант работы ( через сторибоард или без )
+ */
+#define NoXib
 
 @interface AppDelegate ()
 
@@ -21,13 +27,19 @@
     
     [AFNetworkActivityIndicatorManager sharedManager].enabled = YES;
     
-//    CGRect rect = [[UIScreen mainScreen] bounds];
-//    _window = [[UIWindow alloc] initWithFrame:rect];
-//    
-//    ViewController *vc = [[ViewController alloc] initWithStyle:UITableViewStylePlain];
-//    
-//    _window.rootViewController = vc;
-//    [_window makeKeyAndVisible];
+#ifdef NoXib
+    CGRect rect = [[UIScreen mainScreen] bounds];
+    _window = [[UIWindow alloc] initWithFrame:rect];
+    
+    HHNoXibViewController *vc = [[HHNoXibViewController alloc] init];
+#else
+    UIStoryboard *activeStoryboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+
+    UIViewController *vc = [activeStoryboard instantiateInitialViewController];
+#endif
+    
+    _window.rootViewController = vc;
+    [_window makeKeyAndVisible];
     
     return YES;
 }

@@ -34,7 +34,8 @@
 - (void)setVacancy:(HHVacancy *)vacancy {
     _labelVacancyName.text = vacancy.name;
     _labelEmployerName.text = vacancy.employer.name;
-    _labelSalary.text = (vacancy.salary)? vacancy.salary.description: @"з/п не указана";
+    //_labelSalary.text = (vacancy.salary)? vacancy.salary.description: @"з/п не указана";
+    _labelSalary.text = (vacancy.salary)? vacancy.salary.description: nil;
     if (vacancy.employer.logo) {
         HHAPIClient *apiClient = [HHAPIClient sharedClient];
         __weak typeof(_imageViewLogo) _weakImageViewLogo = _imageViewLogo;
