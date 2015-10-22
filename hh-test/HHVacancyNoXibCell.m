@@ -64,6 +64,7 @@
     UIImageView *imageView = [[UIImageView alloc] init];
     imageView.clipsToBounds = YES;
     imageView.contentMode = UIViewContentModeScaleAspectFit;
+    [imageView setContentCompressionResistancePriority:247 forAxis:UILayoutConstraintAxisVertical];
 
     [imageView setTranslatesAutoresizingMaskIntoConstraints:NO];
     [self.contentView addSubview:imageView];
@@ -84,13 +85,15 @@
                                                                 multiplier:1.0
                                                                   constant:8]];
     
-    [imageView addConstraint:[NSLayoutConstraint constraintWithItem:imageView
-                                                               attribute:NSLayoutAttributeHeight
-                                                               relatedBy:NSLayoutRelationEqual
-                                                                  toItem:nil
-                                                               attribute:NSLayoutAttributeNotAnAttribute
-                                                              multiplier:1.0
-                                                                constant:70]];
+    NSLayoutConstraint *logoHeight = [NSLayoutConstraint constraintWithItem:imageView
+                                                                  attribute:NSLayoutAttributeHeight
+                                                                  relatedBy:NSLayoutRelationEqual
+                                                                     toItem:self.contentView
+                                                                  attribute:NSLayoutAttributeHeight
+                                                                 multiplier:0.9
+                                                                   constant:0];
+    logoHeight.priority = UILayoutPriorityDefaultHigh;
+    [self.contentView addConstraint:logoHeight];
     
     [imageView addConstraint:[NSLayoutConstraint constraintWithItem:imageView
                                                                attribute:NSLayoutAttributeWidth
@@ -182,6 +185,8 @@
                 _weakImageViewLogo.image = image;
             }
         }];
+    } else {
+        _imageViewLogo.image = nil;
     }
     
 }

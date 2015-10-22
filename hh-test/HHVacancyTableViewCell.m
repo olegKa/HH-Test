@@ -44,6 +44,8 @@
                 _weakImageViewLogo.image = image;
             }
         }];
+    } else {
+        _imageViewLogo.image = nil;
     }
 }
 
