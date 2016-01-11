@@ -38,7 +38,7 @@
         self.reachabilityManager = [AFNetworkReachabilityManager sharedManager];
         [self.reachabilityManager startMonitoring];
         [self.reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-            NSLog(@"reachability for domain change to:%ld", (long)status);
+            //NSLog(@"reachability for domain change to:%ld", (long)status);
         }];
     }
     
