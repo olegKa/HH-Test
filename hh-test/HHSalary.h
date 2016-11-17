@@ -10,6 +10,9 @@
 
 @interface HHSalary : HHBaseObject
 
+/**
+ add another comment
+ */
 @property (nonatomic, strong) NSNumber *from;
 @property (nonatomic, strong) NSNumber *to;
 @property (nonatomic, strong) NSString *currency;
