@@ -8,9 +8,6 @@
 
 #import "HHAPIVacancies.h"
 
-//#define key_param_page @"page"
-//#define key_param_per_page @"perPage"
-//#define key_items @"items"
 
 @interface HHAPIVacancies ()
 
