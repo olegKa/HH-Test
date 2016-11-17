@@ -11,7 +11,9 @@
 #import "HHSalary.h"
 
 @interface HHVacancy : HHBaseObject
-
+/**
+ * add some comments
+ */
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) HHEmployer *employer;
 @property (nonatomic, strong) HHSalary *salary;
