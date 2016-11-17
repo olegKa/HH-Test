@@ -12,6 +12,7 @@
 //#define key_param_per_page @"perPage"
 //#define key_items @"items"
 
+//define has been removed
 @interface HHAPIVacancies ()
 
 @property (nonatomic, assign) NSInteger page;
