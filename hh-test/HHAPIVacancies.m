@@ -8,9 +8,9 @@
 
 #import "HHAPIVacancies.h"
 
-#define key_param_page @"page"
-#define key_param_per_page @"perPage"
-#define key_items @"items"
+//#define key_param_page @"page"
+//#define key_param_per_page @"perPage"
+//#define key_items @"items"
 
 @interface HHAPIVacancies ()
 
@@ -20,6 +20,10 @@
 @end
 
 @implementation HHAPIVacancies
+
+static NSString *const keyParamPage = @"page";
+static NSString *const keyParamPerPage = @"perPage";
+static NSString *const keyItem = @"items";
 
 - (instancetype)initWithAction:(HHAPIAction *)action andPage:(NSInteger)page andPerPage:(NSInteger)perPage {
     if (self = [super initWithAction:action]) {
@@ -31,12 +35,12 @@
 }
 
 - (void)executeSuccess:(void (^)(NSArray *))success failure:(void (^)(NSError *))failure {
-    NSDictionary *parameters = @{key_param_page:@(self.page),
-                                 key_param_per_page:@(self.perPage)
+    NSDictionary *parameters = @{keyParamPage:@(self.page),
+                                 keyParamPerPage:@(self.perPage)
                                  };
     NSLog(@"execute with page:%lu and perPage:%lu", (long)self.page, (long)self.perPage);
     [self executeWithParameters:parameters success:^(NSDictionary *data) {
-        NSArray *items = data[key_items];
+        NSArray *items = data[keyItem];
         if (items) {
             success(items);
         }
